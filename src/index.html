@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Atividade 03 C3C JavaScript</title>
+</head>
+
+<body>
+    <div class="d1">
+      <h2>Questão 01 - Tipos de Triângulo</h2>
+      <p>
+        <label> Entre com o valor do lado 1 do Triângulo</label>
+        <input type="number" id="ex1_l1" min="1" required>
+      </p>
+      <p>
+        <label> Entre com o valor do lado 2 do Triângulo</label>
+        <input type="number" id="ex1_l2" min="1" required>
+      </p>
+      <p>
+        <label> Entre com o valor do lado 3 do Triângulo</label>
+        <input type="number" id="ex1_l3" min="1" required>
+      </p>
+      <button onclick="tipoTriangulo()">Calcular</button>
+      <p>
+        <label>Resposta Questão 1:</label>
+        <input type="text" id="r1">
+      </p>
+    </div>
+    
+  <hr/>
+
+  <div class="d1">
+    <h2>Questão 02 - Bhaskara</h2>
+    <p>
+      <label> Entre com o valor de A</label>
+      <input type="number" id="ex2_a" min="1" required/>
+    </p>
+    <p>
+      <label> Entre com o valor de B</label>
+      <input type="number" id="ex2_b" min="1" required/>
+    </p>
+    <p>
+      <label> Entre com o valor de C</label>
+      <input type="number" id="ex2_c" min="1" required/>
+    </p>
+    <button onclick="ex2()">Calcular</button>
+    <p>
+      <label>Resposta Questão 2:</label>
+      <input type="text" id="r2">
+    </p>
+  </div>
+
+  <hr/>
+  
+  <div class="d1">
+    <h2>Questão 03 - Sistema de Notas</h2>
+    <p>
+      <label> Entre com a Nota do Aluno</label>
+      <input type="number" id="ex3" min="1" max="100" required/>
+    </p>
+    <button onclick="arredondaNota()">Calcular</button>
+    <p>
+      <label>Resposta Questão 3:</label>
+      <input type="text" id="r3"/>
+    </p>
+  </div>
+
+  <hr/>
+  
+  <div class="d1">
+    <h2>Questão 04 - LuidyMoura</h2>
+    <p>
+      <label> Entre com o argumento</label>
+      <input type="number" id="ex4"  required/>
+    </p>
+    <button onclick="luidyMoura()">Calcular</button>
+    <p>
+      <label>Resposta Questão 4:</label>
+      <input type="text" id="r4"/>
+    </p>
+  </div>
+  
+</body>
+
+<script type="text/javascript" src="./exercicio_1.js"></script>
+<script type="text/javascript" src="./exercicio_2.js"></script>
+<script type="text/javascript" src="./exercicio_3.js"></script>
+<script type="text/javascript" src="./exercicio_4.js"></script>
+</html>

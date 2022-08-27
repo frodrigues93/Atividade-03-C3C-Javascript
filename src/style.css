@@ -1,0 +1,10 @@
+body{
+    width: 100%;
+}
+
+.d1{
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+    background-color: burlywood;
+}
